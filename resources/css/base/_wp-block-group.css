@@ -1,0 +1,38 @@
+.wp-block-group.group-eformaliste{
+  width: 100%;
+  margin: 0;
+  padding-top: 8rem;
+  padding-bottom: 7rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.container-eformaliste {
+  max-width: var(--max-w-1204);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wp-block-group.is-content-justification-center > .container-eformaliste {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.wp-block-group.is-content-justification-left > .container-eformaliste {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.wp-block-group.is-content-justification-right > .container-eformaliste {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: end;
+}

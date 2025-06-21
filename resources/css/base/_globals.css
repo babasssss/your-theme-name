@@ -1,0 +1,53 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+nav .sub-menu-box-shadow {
+  box-shadow: 0px 13px 18px 0px var(--PrimaryAlpha-PRA05, rgba(8, 28, 161, 0.05)), 0px 24px 15px 0px var(--PrimaryAlpha-PRA05, rgba(8, 28, 161, 0.05)), 0px 13px 12px 0px var(--PrimaryAlpha-PRA05, rgba(8, 28, 161, 0.05)), 0px 2px 6px 0px var(--PrimaryAlpha-PRA05, rgba(8, 28, 161, 0.05));
+}
+
+nav .sub-menu-box-shadow li:first-child a {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+nav .sub-menu-box-shadow li:last-child a {
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+nav ul.sub-menu-box-shadow > li:last-child > div {
+  border-bottom: none;
+}
+
+nav li[class*="picto_"] > a > span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  background-color: var(--color-neutral-0);
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+nav li[class*="picto_"]:hover > a > span {
+  background-color: var(--color-primary-600);
+}
+
+nav li.picto_instagram > a > span {
+  mask-image: url('../../icons/instagram-e-formaliste.svg');
+  -webkit-mask-image: url('../../icons/instagram-e-formaliste.svg');
+}
+
+nav li.picto_facebook > a > span {
+  mask-image: url('../../icons/facebook-e-formaliste.svg');
+  -webkit-mask-image: url('../../icons/facebook-e-formaliste.svg');
+}
+
+nav li.picto_linkedin a > span {
+  mask-image: url('../../icons/linkedin-e-formaliste.svg');
+  -webkit-mask-image: url('../../icons/linkedin-e-formaliste.svg');
+}

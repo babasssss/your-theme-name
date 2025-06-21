@@ -1,0 +1,65 @@
+@theme {
+  --color-primary-100: hsl(232, 100%, 95%);   /* #E6EAFE */
+  --color-primary-200: hsl(232, 86%, 89%);    /* #C4CDFA */
+  --color-primary-300: hsl(232, 84%, 80%);    /* #9FAEF8 */
+  --color-primary-400: hsl(232, 84%, 68%);    /* #6E86F3 */
+  --color-primary-500: hsl(232, 87%, 60%);    /* #3F5BEF */
+  --color-primary-600: hsl(235, 86%, 34%);    /* #081CA1 */
+  --color-primary-700: hsl(235, 86%, 30%) ;   /* #07188E */
+  --color-primary-800: hsl(235, 87%, 26%) ;   /* #06147A */
+  --color-primary-900: hsl(235, 87%, 22%) ;   /* #051166 */
+  --color-primary-1000: hsl(236, 89%, 16%) ;  /* #030C4D */
+  --color-primary-hero: hsl(235, 86%, 30%);   /* #07188E */
+
+  --color-neutral-0: hsl(0, 0%, 100%);        /* #FFFFFF */
+  --color-neutral-100: hsl(120, 6%, 94%) ;    /* #EFF0EF */
+  --color-neutral-200: hsl(90, 5%, 88%) ;     /* #E0E2DE */
+  --color-neutral-300: hsl(60, 5%, 76%) ;     /* #C1C5BF */
+  --color-neutral-400: hsl(60, 10%, 65%) ;    /* #A2A89E */
+  --color-neutral-500: hsl(80, 5%, 52%) ;     /* #838B7F */
+  --color-neutral-600: hsl(90, 5%, 41%) ;     /* #656B61 */
+  --color-neutral-700: hsl(90, 5%, 33%) ;     /* #51564E */
+  --color-neutral-800: hsl(30, 7%, 23%) ;     /* #3C403A */
+  --color-neutral-900: hsl(90, 5%, 16%) ;     /* #282B27 */
+  --color-neutral-1000: hsl(90, 4%, 8%) ;     /* #141513 */
+
+  --leading-tight-108: 108%; /* 108% */
+  --leading-tight-116: 116%; /* 116% */
+  --leading-tight-122: 122%; /* 122% */
+  --leading-normal-126: 126%; /* 126% */
+  --leading-normal-158: 158%; /* 158% */
+  --leading-loose-160: 160%; /* 160% */
+
+  --font-dm-sans: 'DMSans', sans-serif;
+
+  --breakpoint-1440: 90rem; /* 1440px */
+  --breakpoint-1204: 75.25rem; /* 1204px */
+  --breakpoint-1200: 75rem; /* 1200px */
+  --breakpoint-810: 50.625rem; /* 810px */
+
+  --max-w-1440: 90rem; /* 1440px */
+  --max-w-1204: 75.25rem; /* 1204px */
+  --max-w-1200: 75rem; /* 1200px */
+  --max-w-810: 50.625rem; /* 810px */
+  --max-w-759: 47.4375rem; /* 759px */
+  --max-w-405: 25.3125rem; /* 405px */
+  --max-w-320: 20rem; /* 320px */
+
+  --min-w-600: 37.5rem; /* 600px */
+  --min-w-160: 10rem; /* 160px */
+
+  --text-88: 5.5rem; /* 88px */
+  --text-70: 4.375rem; /* 70px */
+  --text-39: 2.4375rem; /* 39px */
+
+  --w-392: 24.5rem; /* 392px */
+  --w-4.5: 1.125rem; /* 18px */
+
+
+  --h-4.5: 1.125rem; /* 18px */
+
+  --tracking-1: 0.0625rem; /* 1px */
+
+  --gap-60: 3.75rem; /* 60px */
+  --gap-52: 3.25rem; /* 52px */
+}
