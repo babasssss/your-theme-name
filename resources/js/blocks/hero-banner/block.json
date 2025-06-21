@@ -1,0 +1,45 @@
+{
+  "apiVersion": 2,
+  "name": "eformaliste/hero-banner",
+  "title": "e-formaliste : Hero Banner",
+  "category": "theme",
+  "description": "Bloc Hero avec titre, texte, boutons et grille d’images",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "titleHero": {
+      "type": "string"
+    },
+    "paragraphHero": {
+      "type": "string"
+    },
+    "button1Text": {
+      "type": "string"
+    },
+    "button1Url": {
+      "type": "string"
+    },
+    "button1Target": {
+      "type": "string"
+    },
+    "button2Text": {
+      "type": "string"
+    },
+    "button2Url": {
+      "type": "string"
+    },
+    "button2Target": {
+      "type": "string"
+    },
+    "images": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "editorScript": "file:./edit.jsx",
+  "render": "view:blocks.hero-banner"
+}

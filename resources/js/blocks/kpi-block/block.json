@@ -1,0 +1,18 @@
+{
+  "apiVersion": 2,
+  "name": "eformaliste/kpi-block",
+  "title": "e-formaliste : KPI",
+  "category": "theme",
+  "description": "KPI block for e-formaliste theme",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "kpis": {
+      "type": "array",
+      "default": []
+    }
+  },
+"editorScript": "file:./index.js",
+  "render": "view:blocks.kpi-block"
+}

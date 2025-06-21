@@ -1,0 +1,13 @@
+{
+  "name": "eformaliste/logos-partenaires",
+  "title": "e-formaliste : Logos Partenaires",
+  "category": "eformaliste",
+  "attributes": {
+    "images": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "edit": "edit.js",
+  "render": "view:blocks.logos-partenaires"
+}

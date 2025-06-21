@@ -1,0 +1,17 @@
+{
+  "apiVersion": 2,
+  "name": "eformaliste/h2",
+  "title": "e-formaliste : H2",
+  "category": "theme",
+  "description": "H2 block for e-formaliste theme",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "titleH2": {
+      "type": "string"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "render": "view:blocks.h2"
+}

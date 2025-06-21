@@ -1,0 +1,17 @@
+{
+  "apiVersion": 2,
+  "name": "eformaliste/paragraph",
+  "title": "e-formaliste : Paragraph",
+  "category": "theme",
+  "description": "Paragraph block for e-formaliste theme",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "paragraph": {
+      "type": "string"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "render": "view:blocks.paragraph"
+}

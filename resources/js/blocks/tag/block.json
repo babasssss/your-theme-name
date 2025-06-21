@@ -1,0 +1,17 @@
+{
+  "apiVersion": 2,
+  "name": "eformaliste/tag",
+  "title": "e-formaliste : Tag",
+  "category": "theme",
+  "description": "Text tag block for e-formaliste theme.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "render": "view:blocks.tag"
+}

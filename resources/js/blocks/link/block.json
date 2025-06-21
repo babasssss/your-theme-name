@@ -1,0 +1,24 @@
+{
+  "apiVersion": 2,
+  "name": "eformaliste/link",
+  "title": "e-formaliste : Lien",
+  "category": "theme",
+  "description": "Lien block for e-formaliste theme",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+
+    "linkText": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    },
+    "linkTarget": {
+      "type": "string"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "render": "view:blocks.link"
+}
