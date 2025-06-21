@@ -9,12 +9,12 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
   </head>
 
-  <body @php(body_class())>
+  <body @php(body_class('bg-neutral-0'))>
     @php(wp_body_open())
 
     <div id="app">
       <a class="sr-only focus:not-sr-only" href="#main">
-        {{ __('Skip to content', 'sage') }}
+        {{ __('Skip to content', 'e-formaliste') }}
       </a>
 
       @include('sections.header')
